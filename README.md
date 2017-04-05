@@ -14,9 +14,11 @@ Whereas [Tomi Mester](https://twitter.com/data36_com) suggests we could have som
 
 ![Subtitles](images/subtitles.png)
 
-Once we have the subtitles, they must be aggregated and transformed to get to the final product. I used the script from the article above, with the miniscule addition of the `-a` or `--binary-files=text` switch to `grep` due to some subtitle transcriptions of lesser quality containing unexpected characters and encoding. This switch tells `grep` to treat binary files as text, which isn't really the case, as I can visually inspect some of the files and see they contain Spanish.
+Once we have the subtitles, they must be aggregated and transformed to get to the final product. I used the script from the article above, with the miniscule addition of the `-a` or `--binary-files=text` switch to `grep` due to some subtitle transcriptions of lesser quality, containing unexpected characters and encoding. This switch tells `grep` to treat binary files as text, which isn't really the case, as I can visually inspect some of the files and see they contain Spanish.
 
 ![Poor Quality](images/poor-qual-subtitle.png)
+
+As in the original, I left each of the steps on a separate line for readibility.
 
 ```bash
 #!/bin/bash
@@ -39,3 +41,9 @@ cat all_data.csv | head -1000 > 1000.csv
 cat all_data.csv | head -1000 |awk '{sum += $1} END {print sum}'
 cat all_data.csv | awk '{sum += $1} END {print sum}'
 ```
+
+Starting with `1000.csv`, I have some top 1,000 candidate words for Spanish. I'm working on the automation for the translations, but currently doing them by hand. I started with Google Translate and then ran it by a person who was taking Spanish.
+
+![Pretty TSV](images/pretty-tsv.png)
+
+Conclusion...
