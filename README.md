@@ -46,7 +46,14 @@ cat all_data.csv | head -1000 |awk '{sum += $1} END {print sum}'
 cat all_data.csv | awk '{sum += $1} END {print sum}'
 ```
 
-Starting with `1000.csv`, I have some top 1,000 candidate words for Spanish. I'm working on the automation for the translations, but currently doing them by hand. I started with Google Translate and then ran it by a person who was taking Spanish.
+Starting with `1000.csv`, I have the top 1,000 candidate words for Spanish. Based on the subtitles I downloaded, I collected  around 16,500 words. The more I collect, the better the accuracy.
+
+```bash
+$ cat all_data.csv | wc -w
+16524
+```
+
+I'm working on the automation for the translations, but currently doing them by hand. I started with Google Translate and then ran it by a person who was taking Spanish.
 
 ![Pretty TSV](images/pretty-tsv.png)
 
