@@ -1,6 +1,6 @@
 # Learn a New Language Using Data Science
 
-If we ever think about [frequency analysis](https://en.wikipedia.org/wiki/Frequency_analysis), it is usually in the context of cryptography, in which it is used to break classical ciphers. In written language, patterns regularly appear, notably in the building blocks of words. Or saying it another way, the repition of certain letters of the alphabet.
+If we ever think about [frequency analysis](https://en.wikipedia.org/wiki/Frequency_analysis), it is usually in the context of cryptography, in which it is used to break classical ciphers. In written language, patterns regularly appear, notably in the building blocks of words. Or saying it another way, the repetition of certain letters of the alphabet.
 
 ![English Letter Distribution](images/eng-letter-dist.png)
 
