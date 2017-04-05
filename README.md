@@ -14,6 +14,10 @@ Whereas [Tomi Mester](https://twitter.com/data36_com) suggests we could have som
 
 ![Subtitles](images/subtitles.png)
 
+Once we have the subtitles, they must be aggregated and transformed to get to the final product. I used the script from the article above, with the miniscule addition of the `-a` or `--binary-files=text` switch to `grep` due to some subtitle transcriptions of lesser quality containing unexpected characters and encoding. This switch tells `grep` to treat binary files as text, which isn't really the case, as I can visually inspect some of the files and see they contain Spanish.
+
+![Poor Quality](poor-qual-subtitle.png)
+
 ```bash
 #!/bin/bash
 
