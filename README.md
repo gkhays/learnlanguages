@@ -2,7 +2,9 @@
 
 If we ever think about [frequency analysis](https://en.wikipedia.org/wiki/Frequency_analysis), it is usually in the context of cryptography, in which it is used to break classical ciphers. In written language, patterns regularly appear, notably in the building blocks of words. Or saying it another way, the repetition of certain letters of the alphabet.
 
-![English Letter Distribution](images/eng-letter-dist.png)
+[![English Letter Distribution](images/eng-letter-dist.png)](https://en.wikipedia.org/wiki/Frequency_analysis)
+
+Source: \[[1](https://en.wikipedia.org/wiki/Frequency_analysis)\]
 
 As an aside, you may notice from the graph that you could derive the fanciful phrase [ETAOIN SHRDLU](https://en.wikipedia.org/wiki/Etaoin_shrdlu), which illustrates the 12 most frequent letters in English writing.
 
