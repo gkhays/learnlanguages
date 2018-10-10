@@ -60,3 +60,9 @@ I'm working on the automation for the translations, but currently doing them by 
 ![Pretty TSV](images/pretty-tsv.png)
 
 Conclusion...
+
+## References
+
+\[1\] [Frequency analysis](https://en.wikipedia.org/wiki/Frequency_analysis), Wikipedia
+\[2\] [Google Ngram Viewer](https://en.wikipedia.org/wiki/Google_Ngram_Viewer), Wikipedia
+\[3\] [Learning languages very quickly — with the help of some very basic Data Science](https://hackernoon.com/learning-languages-very-quickly-with-the-help-of-some-very-basic-data-science-cdbf95288333), HackerNoon
